@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 
 
@@ -21,6 +21,7 @@ nav a {
     width: 100vw;
     height: 100vh;
     display: flex;
+
     align-items: center;
     text-align: center;
 }
@@ -29,6 +30,10 @@ h1{
     text-align: center;
 }
 
+
+.divPadre div{
+    flex-direction: column;
+}
 .divPadre div img{
     size: 300px;
     width: 300px;
