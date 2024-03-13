@@ -5,7 +5,11 @@
     font-family:'Courier New', Courier, monospace;
 }
 
-
+header{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
 nav a {
     text-align: center;
@@ -33,12 +37,20 @@ h1{
 }
 
 
-.divPadre div{
+.divPadre .cardProducto{
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
 }
 .divPadre div img{
-    
+    margin: auto;
     width: 300px;
     height: 350px;
+}
+
+footer{
+    display: block;
+    margin: auto;
 }
