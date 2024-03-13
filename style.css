@@ -1,4 +1,6 @@
 .divPadre {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -10,5 +12,6 @@ h1{
 
 .divPadre div img{
     size: 300px;
-
+    width: 300px;
+    height: 350px;
 }
