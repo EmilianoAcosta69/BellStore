@@ -44,11 +44,11 @@ a:hover{
     
 }
 
-h1{
+h1 , h2{
     text-align: center;
     margin: 10px;
     color: grey;
-    box-shadow: 0 0 30px grey;
+    
 }
 
 
