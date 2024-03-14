@@ -45,12 +45,11 @@ h1{
 .divPadre .cardProducto{
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
     box-sizing: border-box;
     padding-top: 15px;
-    border: 0.3px solid grey;
     align-items: center;
     margin:auto;
+    box-shadow: 0px 0px 30px grey;
 }
 .divPadre div img{
     justify-content: center;
