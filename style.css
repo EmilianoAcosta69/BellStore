@@ -6,12 +6,17 @@
 }
 
 
+
 header{
     text-align: center;
     align-items: center;
     justify-content: center;
     background-color: aliceblue;
+    height: 20%;
+}
 
+header nav button{
+    padding: 15px;
 }
 
 nav a {
@@ -41,6 +46,9 @@ a:hover{
 
 h1{
     text-align: center;
+    margin: 10px;
+    color: grey;
+    box-shadow: 0 0 30px grey;
 }
 
 
