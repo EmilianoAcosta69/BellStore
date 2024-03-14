@@ -50,14 +50,25 @@ h1{
     align-items: center;
     margin:auto;
     box-shadow: 0px 0px 30px grey;
+    border-radius: 5%;
 }
+
+.divPadre .cardProducto div{
+    width: 200px;
+}
+
+.divPadre .cardProducto div a{
+    padding: 5px;
+    box-shadow: 0px 0px 15px grey;
+    
+}
+
 .divPadre div img{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 300px;
+    width: 360px;
     height: 370px;
-    border-radius: 5%;
 }
 
 
